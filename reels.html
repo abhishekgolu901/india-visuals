@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101b2c">
+  <meta name="description" content="Discover vertical video stories and short-form edits from India Visuals by Abhishek Kumar.">
+
+  <title>Reels | India Visuals</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="reels.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="India Visuals home">
+      <img src="assets/india-visuals-logo.jpg" alt="India Visuals logo">
+      <span class="brand-copy">
+        <strong>India Visuals</strong>
+        <span>Abhishek Kumar</span>
+        <small>Cinematographer &amp; Video Editor</small>
+      </span>
+    </a>
+
+    <nav class="main-nav gallery-nav" aria-label="Main navigation">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#work">Work</a>
+      <a href="photos.html">Gallery</a>
+      <a href="reels.html" aria-current="page">Reels</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <a class="contact-icon-button whatsapp-button"
+       href="https://wa.me/916207938621"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Contact India Visuals on WhatsApp">
+      <span>WhatsApp</span>
+    </a>
+  </header>
+
+  <main class="reels-page">
+    <section class="reels-intro">
+      <p class="eyebrow"><span></span> INDIA VISUALS · SHORT-FORM</p>
+
+      <h1>Stories in <span>motion.</span></h1>
+
+      <p>
+        A dedicated space for vertical videos, creative edits and
+        short visual stories by Abhishek Kumar.
+      </p>
+
+      <div class="gallery-page-links">
+        <a class="button button-primary" href="videos.html">Explore Videos ↗</a>
+        <a class="button button-secondary" href="index.html#contact">Discuss a Project ↗</a>
+      </div>
+    </section>
+
+    <section class="reels-feed section-wrap" aria-labelledby="reels-heading">
+      <div class="reels-feed-heading">
+        <div>
+          <p class="eyebrow">VERTICAL VIDEO COLLECTION</p>
+          <h2 id="reels-heading">The Reels <span>Feed</span></h2>
+        </div>
+
+        <span class="reels-status">Your content goes here</span>
+      </div>
+
+      <div class="reels-empty" id="reelsEmpty">
+        <div class="reels-empty-screen" aria-hidden="true">
+          <div class="reels-play-icon">▶</div>
+          <span>9 : 16</span>
+        </div>
+
+        <div class="reels-empty-copy">
+          <h3>Your next reel will take the spotlight.</h3>
+
+          <p>
+            Your vertical videos will appear in this section with
+            their titles and playback controls. Once the admin system
+            is connected, your published reels can be managed without
+            editing website code.
+          </p>
+
+          <a class="button button-primary" href="index.html#contact">
+            Contact India Visuals ↗
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-main">
+      <a class="brand footer-brand" href="index.html">
+        <img src="assets/india-visuals-logo.jpg" alt="India Visuals logo">
+        <span class="brand-copy">
+          <strong>India Visuals</strong>
+          <span>Abhishek Kumar</span>
+          <small>Cinematographer &amp; Video Editor</small>
+        </span>
+      </a>
+
+      <p class="footer-tagline">Thoughtful editing. Cinematic storytelling.</p>
+
+      <div class="footer-quick-links">
+        <a href="index.html#home">Home</a>
+        <a href="videos.html">Videos</a>
+        <a href="photos.html">Photos</a>
+        <a href="mailto:contact.worknestservices@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <a href="#">Back to top ↑</a>
+      <small>© <span id="currentYear">2026</span> India Visuals. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("currentYear").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>

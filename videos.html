@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101b2c">
+  <meta name="description" content="Explore the video portfolio of India Visuals by Abhishek Kumar.">
+  <title>Video Gallery | India Visuals</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="India Visuals home">
+      <img src="assets/india-visuals-logo.jpg" alt="India Visuals logo">
+      <span class="brand-copy">
+        <strong>India Visuals</strong>
+        <span>Abhishek Kumar</span>
+        <small>Cinematographer &amp; Video Editor</small>
+      </span>
+    </a>
+
+    <nav class="main-nav gallery-nav" aria-label="Main navigation">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#work">Work</a>
+      <a href="photos.html">Gallery</a>
+      <a href="reels.html">Reels</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <a class="contact-icon-button whatsapp-button"
+       href="https://wa.me/916207938621"
+       target="_blank" rel="noopener noreferrer">
+      <span>WhatsApp</span>
+    </a>
+  </header>
+
+  <main class="gallery-page">
+    <section class="gallery-intro">
+      <p class="eyebrow"><span></span> INDIA VISUALS PORTFOLIO</p>
+      <h1>Video <span>Gallery.</span></h1>
+      <p>
+        A dedicated space for cinematic films, creative edits and
+        visual stories by Abhishek Kumar.
+      </p>
+
+      <div class="gallery-page-links">
+        <a class="button button-primary" href="photos.html">Explore Photos ↗</a>
+        <a class="button button-secondary" href="index.html#contact">Discuss a Project ↗</a>
+      </div>
+    </section>
+
+    <section class="gallery-content section-wrap" aria-labelledby="video-gallery-title">
+      <div class="gallery-section-heading">
+        <div>
+          <p class="eyebrow">CINEMATIC STORIES</p>
+          <h2 id="video-gallery-title">Selected <span>Videos</span></h2>
+        </div>
+        <p class="gallery-count" id="videoCount">0 videos</p>
+      </div>
+
+      <div class="media-grid" id="videoGrid">
+        <div class="gallery-empty" id="videoEmpty">
+          <div class="gallery-empty-icon" aria-hidden="true">▶</div>
+          <h3>Your video portfolio starts here.</h3>
+          <p>
+            Your published videos will appear here with their titles
+            and thumbnails. Add your projects when the secure
+            portfolio management system is connected.
+          </p>
+          <a class="inline-link" href="index.html#contact">
+            Contact India Visuals ↗
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-main">
+      <a class="brand footer-brand" href="index.html">
+        <img src="assets/india-visuals-logo.jpg" alt="India Visuals logo">
+        <span class="brand-copy">
+          <strong>India Visuals</strong>
+          <span>Abhishek Kumar</span>
+          <small>Cinematographer &amp; Video Editor</small>
+        </span>
+      </a>
+
+      <p class="footer-tagline">Thoughtful editing. Cinematic storytelling.</p>
+
+      <div class="footer-quick-links">
+        <a href="index.html#home">Home</a>
+        <a href="photos.html">Photos</a>
+        <a href="reels.html">Reels</a>
+        <a href="mailto:contact.worknestservices@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <a href="#">Back to top ↑</a>
+      <small>© <span id="currentYear">2026</span> India Visuals. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("currentYear").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,409 @@
+
+/* =========================================
+   INDIA VISUALS — CONTACT PAGE
+   Premium cinematic styling
+========================================= */
+
+.contact-page {
+  overflow: hidden;
+  min-height: 70vh;
+}
+
+/* Contact hero */
+
+.contact-hero {
+  padding: 100px 24px 85px;
+  text-align: center;
+  background:
+    radial-gradient(
+      ellipse at 50% 0%,
+      rgba(224, 161, 90, 0.13),
+      transparent 60%
+    ),
+    linear-gradient(180deg, #101b2c, #0b1220);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.contact-hero .eyebrow,
+.contact-intro .eyebrow,
+.contact-card .eyebrow,
+.contact-social .eyebrow {
+  margin: 0 0 18px;
+  color: #dca45e;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+
+.contact-hero .eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-hero .eyebrow span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #e0a15a;
+  box-shadow: 0 0 12px rgba(224, 161, 90, 0.6);
+}
+
+.contact-hero h1 {
+  max-width: 900px;
+  margin: 0 auto 22px;
+  color: #f5f3ee;
+  font-size: clamp(40px, 6vw, 72px);
+  line-height: 1.1;
+  letter-spacing: -2px;
+}
+
+.contact-hero h1 span,
+.contact-intro h2 span,
+.contact-social h2 span {
+  color: #e0a15a;
+}
+
+.contact-hero > p:last-child {
+  max-width: 680px;
+  margin: 0 auto;
+  color: #aeb8c7;
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+/* Main contact content */
+
+.contact-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
+  gap: 55px;
+  align-items: start;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.contact-intro {
+  min-width: 0;
+}
+
+.contact-intro h2,
+.contact-social h2 {
+  margin: 0 0 20px;
+  color: #f5f3ee;
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.contact-intro > p:not(.eyebrow) {
+  max-width: 540px;
+  margin: 0;
+  color: #aeb8c7;
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+/* Contact details */
+
+.contact-details {
+  display: grid;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.025);
+  color: #f5f3ee;
+  text-decoration: none;
+  transition:
+    border-color 0.25s ease,
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.contact-detail:hover {
+  border-color: rgba(224, 161, 90, 0.5);
+  background: rgba(224, 161, 90, 0.055);
+  transform: translateY(-2px);
+}
+
+.contact-icon {
+  display: flex;
+  flex: 0 0 46px;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgba(224, 161, 90, 0.3);
+  border-radius: 12px;
+  background: rgba(224, 161, 90, 0.08);
+  color: #e8b674;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.contact-detail > span:nth-child(2) {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.contact-detail small {
+  color: #dca45e;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+}
+
+.contact-detail strong {
+  overflow-wrap: anywhere;
+  color: #f5f3ee;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contact-detail-note {
+  color: #94a0b2;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.contact-arrow {
+  flex-shrink: 0;
+  color: #e0a15a;
+  font-size: 20px;
+}
+
+/* Project enquiry card */
+
+.contact-card {
+  padding: 36px;
+  border: 1px solid rgba(224, 161, 90, 0.22);
+  border-radius: 22px;
+  background:
+    radial-gradient(
+      ellipse at 100% 0%,
+      rgba(224, 161, 90, 0.12),
+      transparent 55%
+    ),
+    #111d2e;
+  box-shadow: 0 24px 65px rgba(0, 0, 0, 0.15);
+}
+
+.contact-card h2 {
+  margin: 0 0 15px;
+  color: #f5f3ee;
+  font-size: 29px;
+  line-height: 1.25;
+}
+
+.contact-card > p:not(.eyebrow):not(.contact-note) {
+  margin: 0;
+  color: #aeb8c7;
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+.contact-services {
+  display: grid;
+  gap: 14px;
+  margin: 25px 0 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-services li {
+  position: relative;
+  padding-left: 26px;
+  color: #e4e8ef;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contact-services li::before {
+  content: "✓";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #e0a15a;
+  font-weight: 700;
+}
+
+.contact-main-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 52px;
+  padding: 14px 18px;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.contact-main-button span {
+  font-size: 18px;
+}
+
+.contact-note {
+  margin: 15px 0 0;
+  color: #8996a9;
+  font-size: 11px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* Social links */
+
+.contact-social {
+  padding-top: 55px;
+  padding-bottom: 85px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+.contact-social h2 {
+  margin-bottom: 28px;
+}
+
+.contact-social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.contact-social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 12px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 30px;
+  color: #e7eaf0;
+  font-size: 13px;
+  text-decoration: none;
+  transition:
+    color 0.25s ease,
+    background 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.contact-social-links a:hover {
+  border-color: #e0a15a;
+  background: rgba(224, 161, 90, 0.1);
+  color: #f0bd79;
+}
+
+/* Tablet layout */
+
+@media (max-width: 850px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    max-width: 680px;
+  }
+
+  .contact-card {
+    padding: 30px;
+  }
+}
+
+/* Mobile layout */
+
+@media (max-width: 600px) {
+  .contact-hero {
+    padding: 65px 20px 55px;
+  }
+
+  .contact-hero h1 {
+    letter-spacing: -1.2px;
+  }
+
+  .contact-hero > p:last-child {
+    font-size: 14px;
+  }
+
+  .contact-content {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    gap: 32px;
+  }
+
+  .contact-intro h2,
+  .contact-social h2 {
+    font-size: 32px;
+  }
+
+  .contact-detail {
+    gap: 12px;
+    padding: 16px 13px;
+  }
+
+  .contact-icon {
+    flex-basis: 40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .contact-detail strong {
+    font-size: 12px;
+  }
+
+  .contact-detail-note {
+    font-size: 11px;
+  }
+
+  .contact-arrow {
+    font-size: 17px;
+  }
+
+  .contact-card {
+    padding: 25px 20px;
+    border-radius: 18px;
+  }
+
+  .contact-card h2 {
+    font-size: 26px;
+  }
+
+  .contact-social {
+    padding-top: 45px;
+    padding-bottom: 55px;
+  }
+
+  .contact-social-links {
+    gap: 10px;
+  }
+
+  .contact-social-links a {
+    padding: 11px 14px;
+    font-size: 12px;
+  }
+}
+
+/* Accessibility: reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-page *,
+  .contact-page *::before,
+  .contact-page *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}
